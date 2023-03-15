@@ -40,6 +40,7 @@ public class BMI_Form extends HttpServlet {
             BMI_Caculator x = new BMI_Caculator(weight, height);
             double a; 
             double b;   
+            double c;
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
